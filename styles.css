@@ -84,15 +84,19 @@ header{
     font-size: 12px;
 }
 img{
-    width: 15px;
-    height: 15px;
+    width: 300px;
+    height: 500px;
+}
+.logo-image{
+    width: 10px;
+    height: 10px; 
 }
 .intro{
     display: flex;
     text-align: center;
     align-items: center;
 }
-.background_image{
+.home{
     margin:3% auto;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0)),url(assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
@@ -128,3 +132,62 @@ p{
 footer{
     background-color: #BF7631;
 }
+.search_image{
+    width: 25px;
+    height: 25px;
+}
+.right_image{
+    width: 400px;
+    height: 500px;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.column1{
+    flex: 50%;
+    padding: 0 10px;
+    margin-top: 10px;
+   
+}
+.column2{
+    flex: auto;
+}
+.mundo_bowls{
+    width: 200px;
+    height: 200px;
+}
+.natureza_vase{
+    width: 200px;
+    height: 200px;
+}
+.feira_bowls{
+    width: 200px;
+    height: 200px;
+}
+.natureza_pots{
+    width: 200px;
+    height: 200px;
+}
+.pedra_vase{
+    width: 200px;
+    height: 200px;
+}
+.viaja_pots{
+    width: 200px;
+    height: 200px;
+}
+.servico_plates{
+    width: 200px;
+    height: 200px;
+}
+.campeao_vase{
+    width: 200px;
+    height: 200px;
+}
+.troca_bowls{
+    width: 200px;
+    height: 200px;
+}
+

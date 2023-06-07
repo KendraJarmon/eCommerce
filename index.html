@@ -8,16 +8,16 @@
     <title>Document</title>
 </head>
 
-<header> 
+<header class="container">
 
-     <div class="container">
+     
     <div class="navbar">
         <nav>
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">PRODUCTS</a></li>
-                <li><a href="">CONTACT</a></li>
+            <ul> 
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#product">PRODUCTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
         <div class="intro">
@@ -25,7 +25,7 @@
                 CARA
             </div>
             <div class="logo">
-                <div style="text-align: center;"><img src="assets/icons8-pottery-96.png" width="30px" 
+                <div style="text-align: center;"><img class="logo-image" src="assets/icons8-pottery-96.png" width="30px" 
                     alt="my image" />
                 </div>
             <div class="right">
@@ -36,32 +36,29 @@
         <div class="search">
             <form action="" class="search_bar">
         <input type="text" placeholder="=search..." name="search" id="search">
-        <button type="submit"><img src="assets/1200px-Google_Magnifying_Glass.svg.png"/>
+        <button type="submit"><img class="search_image" src="assets/1200px-Google_Magnifying_Glass.svg.png"/>
         </button>    
-            </form>   
-    </div> 
+            </form>    
      </header>
 <hr> <hr/>
 <body>
-    <div
-    <section class="background_image">
+    <section class="home" id="home">
+        
         <h1> CERAMICS CRAFTED BY HAND...</h1>
         <h2>...FROM THE GROUND UP</h2>
     </section>
-</div>
+
+
+    <section id="about">
     <div class="row">
         <h3>ABOUT US</h3>
     </div>
     <hr> <hr/>
-</body>
-<body>
 <div class="p_image">
     <div class="row">
         <div class="col-3">
-            <img src="assets/Cylinder_unglazed3_2048x2048.jpg">
-        <div class="col-3">
-            <img src="assets/Vase_Dame_2048x2048.jpg">
-        </div>
+            <img class="right_image" src="assets/Cylinder_unglazed3_2048x2048.jpg" style="float: right;">
+        
         </div>
     </div>
 </div> 
@@ -72,7 +69,13 @@
             ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
             risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
             amet commodo</p>
-       
+       <div class="col-3">
+            <img src="assets/Vase_Dame_2048x2048.jpg">
+       </div>
+
+
+<div class="paragraph2">
+
         <p>Nulla porttitor massa id neque aliquam
             vestibulum morbi. Facilisi nullam vehicula
             ipsum a arcu cursus vitae congue. Nam libero
@@ -84,18 +87,78 @@
             amet mattis. Egestas sed sed risus pretium
             quam vulputate dignissim. Diam phasellus
             vestibulum lorem sed risus. Cursus sit amet
-            dictum sit amet justo donec enim.</p>
+            dictum sit amet justo donec enim.</p> 
             <p>Tincidunt praesent semper feugiat nibh sed.
                 Vulputate mi sit amet mauris commodo quis
                 imperdiet massa. Amet tellus cras adipiscing
                 enim eu turpis egestas pretium aenean.
-                Nullam ac tortor vitae purus</p>
+                Nullam ac tortor vitae purus</p> 
+</div>
+</section>
 
-                <div class="row">
-                    <h3>OUR PRODUCTS</h3>
-                </div>
-                <hr> <hr/>
+<section id="products">
+        <h3>OUR PRODUCTS</h3>
+        <hr></hr>
+    <div class="row1">
+    
+        <div class="column1">
+            <img class="mundo_bowls" src="assets/tom-crew-7HuTGlUfQSo-unsplash.jpg"><h4>MUNDO BOWLS $48.00</h4><p>Tincidunt praesent semper feugiat nibh
+                sed. Vulputate mi sit amet mauris
+                commodo quis imperdiet massa. Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean</p> 
+            <img class="natureza_pots" src="assets/tom-crew-3uwu5K0RtaE-unsplash.jpg"><h4>NATUREZA POTS  $59.00</h4><p>Tincidunt praesent semper feugiat nibh
+                sed. Vulputate mi sit amet mauris
+                commodo quis imperdiet massa. Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean</p>
+            <img class="servico_plates" src="assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg"><h4>SERVICO PLATES  $35.00</h4><p>Tincidunt praesent semper feugiat nibh
+                sed. Vulputate mi sit amet mauris
+                commodo quis imperdiet massa. Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean.</p>
+        </div>  
+        <div class="column2"> 
+            <img class="natureza_vase" src="assets/oriento-maVIpNNtmlQ-unsplash.jpg"><h4>NATUREZA VASE $37.00</h4><p>Tincidunt praesent semper feugiat nibh
+                sed. Vulputate mi sit amet mauris
+                commodo quis imperdiet massa. Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean.
+                </p>
+            <img class="pedra_vase" src="assets/linh-le-a0rE64YJDA4-unsplash.jpg"><h4>PEDRA VASE  $31.00</h4><p>Tincidunt praesent semper feugiat nibh
+                sed. Vulputate mi sit amet mauris
+                commodo quis imperdiet massa. Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean.</p>
+            <img class="campeao_vase" src="assets/oriento-l0ah3UBLppo-unsplash.jpg"><h4>CAMPEAO VASE  $37.00</h4><p>Tincidunt praesent semper feugiat nibh
+                sed. Vulputate mi sit amet mauris
+                commodo quis imperdiet massa. Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean.</p> 
+        </div>    
+        <div class="column3">
+            <img class="feira_bowls" src="assets/tom-crew-bgIO-u4GEfI-unsplash.jpg"><h4>FEIRA BOWLS  $29.00</h4><p>Tincidunt praesent semper feugiat nibh
+                sed. Vulputate mi sit amet mauris
+                commodo quis imperdiet massa. Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean.</p>
+            <img class="viaja_pots" src="assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg"><h4>VIAJA POTS  $57.00</h4><p>Tincidunt praesent semper feugiat nibh
+                sed. Vulputate mi sit amet mauris
+                commodo quis imperdiet massa. Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean.</p>
+            <img class="troca_bowls" src="assets/tom-crew-SITGdvztUdg-unsplash.jpg"><h4>TROCA BOWLS  $25.00</h4><p>Tincidunt praesent semper feugiat nibh
+                sed. Vulputate mi sit amet mauris
+                commodo quis imperdiet massa. Amet
+                tellus cras adipiscing enim eu turpis
+                egestas pretium aenean.</p>
+        </div>  
+    </div>
+    <hr> <hr/>
+</section>
 
+
+<section id="contact">
 
     <div class="row">
         <h3>CONTACT US</h3>
@@ -107,6 +170,8 @@
         <textarea></textarea>
     </div>
      <hr> <hr/>
+</section>
+
 <footer>
     
 </footer>
